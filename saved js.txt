@@ -1,0 +1,117 @@
+// let word = "Agatha";
+
+// function main(){
+//     if(i > 10){
+//         console.log("Your time is done!")
+        
+//     }else{
+//         console.log("i is " + i)
+//         i++
+//         main()
+//     }
+    
+// }
+
+// print every letter in the word variable
+// let visitor = "Agatha";
+// let integer = 0;
+// function printLetter(){
+//     if (integer > visitor.length){
+//     console.log("Okay!")
+//     }else{
+//         console.log(visitor[integer])
+//          integer = integer + 1
+//           printLetter();
+//     }
+// }
+// printLetter()
+// for(let word of "Agatha"){
+//     console.log(word)
+// }
+
+
+let count = 0;
+function arg (a){
+    if (count==a.length){
+     console.log("done")
+   }else{
+    console.log(a[count])
+    count = count + 1
+    arg(a) 
+   }  
+}
+   arg("kilimanjaro")
+
+// create a function that takes in an argument of a string from back to From back to front
+
+ let sum = 1;
+ function str (x){
+    if (sum > x.length) {
+       console.log("okay!")
+    }else{
+       console.log(x[x.length-sum])
+       sum = sum+1
+       str(x)  
+    }
+ }
+
+str("go")
+
+// create a function that takes in an argument of a string from back to From front to back and vice a vice
+
+//    let word;
+//  let number = 0;
+//  function signWord (word){
+//    if (number == word.length){
+//    console.log("longer!")
+//  }else{
+//    console.log(word[number])
+//    number = number + 1
+//    signWord(word)
+//  }
+// }
+//    signWord("fantastic")
+
+// create a function that takes in an argument of a string from back to From front to back and vice a vice
+
+
+
+let num =-1;
+function pOdd (){
+   if (num >= 99){
+      console.log("odd numbers")
+   }else{
+      num= num +2
+      console.log(num)
+      pOdd()
+   }
+}
+pOdd()
+
+// create a function that takes in an argument of a string from back to From front to back and vice a vice
+
+// arr1 = ['str1', 'str2','str3','str4','str5']
+// let i=0;
+// function loop(){
+//    if(i==arr.length){
+//       console.log('done')
+//    }else{
+//       console.log(arr[i])
+//       i=i+1
+//       loop()
+//    }
+// }
+
+
+let x = 1;
+let arr = ['str1','str2','str3','str4','str5']
+function displayLoop(){
+   if(x > arr.length){
+      console.log("done")
+   }else{
+ console.log(arr[arr.length-x])  
+ x= x + 1   
+ displayLoop()
+   }
+}
+displayLoop()

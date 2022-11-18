@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Counter app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>People entered:</h1>
+        <h2 id="count">0</h2>
+<div>
+    <button id="increment-btn" onclick="increment()">Increase</button>
+    <button onclick="decrease()" id="decrease">Decrease</button>
+    <button id="del" onclick="reset()">Reset</button>
+</div>
+<div class="box">
+    <input type="number" min="0" max="100" placeholder="input value" id="val">
+    <button onclick="changeCount()">Set</button>
+</div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
